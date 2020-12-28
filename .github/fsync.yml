@@ -1,0 +1,15 @@
+commit_message: 🔄 Update file via sync
+
+replace:
+  - before: project_name
+    after: site
+  - before: project_description
+    after: 🕸 Website for Magnesium Software LLC
+
+files:
+  - path: LICENSE.md
+    source: https://github.com/House-Cat-App/shared/blob/main/licenses/gnu-gpl-v3.md
+  - path: .github/workflows/sync.yml
+    source: https://github.com/House-Cat-App/shared/blob/main/workflows/sync.yml
+  - path: CODE_OF_CONDUCT.md
+    source: https://github.com/House-Cat-App/shared/blob/main/docs/coc.md
